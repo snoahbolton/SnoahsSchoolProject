@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='en' class=''>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Snoah's Private Search HUB</title>
+    <link rel="stylesheet" href="SEARCHHOMEPAGE.css">
+  </head>
+  <body class="body">
+
+      <div class="header">
+        <div>
+          <p class="header">
+            <a class="WTHIF" href="WhatItsFor.html">What Is This Hub Is For?</a>
+            <a class="WTHIF" href="EngineTypes.html">Private Search Engine Types</a>
+            <a class="WTHIF" href="PersonalSetup.html">How To Setup Your Own Private Engine</a>
+            <a class="WTHIF" href="Blog.html">Privacy News/Blog from Snoah</a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <p>
+          <a class="site-title" href="SEARCHHOMEPAGE.html">Snoah's Private Search Hub</a> 
+        </p>
+        <p class="basicsearchdes">
+          Basic Duckduckgo Search:
+        </p>
+      </div>
+      <div class="searchlinks">
+        <form class="form" role="search" id="form">
+          <input type="search" id="query" name="q" placeholder="Search...">
+          <button class="search-button">
+           <img class="searchglass" src="images/magnifyingglass.png">
+          </button>
+        </form>
+      </div>
+      <div class="searchlinks">
+         <a class="WTHIF" href="https://search.brave.com/" target="_blank">Brave Search Engine</a>
+      </div>
+      <div class="searchlinks">
+        <a class="WTHIF" href="https://noahnotgoogle.com/" target="_blank">Private Searx Instance</a>
+      </div>
+      <div class="searchlinks">
+         <a class="WTHIF" href="https://searx.space/#" target="_blank">Public Searx Options</a>
+      </div> 
+    <script>
+        const f = document.getElementById('form');
+        const q = document.getElementById('query');
+        const ddg = 'https://duckduckgo.com/?q=';
+
+      function submitted(event) {
+        event.preventDefault();
+        const url = ddg + '+' + q.value;
+        const win = window.open(url, '_blank');
+        win.focus();
+      }
+
+      f.addEventListener('submit', submitted);
+    </script>
+    <footer class="footer">
+      <a class="footer-link" href="AboutTheCreator.html">About The Creator: Snoah</a>
+    </footer>
+  </body>
+</html>

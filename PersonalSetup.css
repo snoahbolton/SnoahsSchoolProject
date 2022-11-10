@@ -1,0 +1,85 @@
+.body{
+  background-color: rgb(34, 36, 40);
+  height: max-content;
+  display: block;
+}
+
+.header{
+  text-align: center;
+  }
+  .header:active{
+    border: none;
+  }
+
+.WTHIF{
+  font-family: arial;
+  color: rgb(51, 51, 209);
+  margin-left: 8px;
+  }
+  .WTHIF:active{
+    color: green;
+    }
+
+.site-title{
+  color: rgb(51, 109, 51);
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.video-title{
+  color: rgb(51, 109, 51);
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-link{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.video-border{
+  border: rgb(51, 109, 51);
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 3px;
+}
+
+.footer{
+  font-family: arial;
+  position: fixed;  
+  left: 0px;  
+  bottom: 5px;  
+  right: 0px;   
+  width: 100%;  
+  background-color: rgb(51, 51, 51);  
+  color: white;  
+  text-align: center;
+  border: 40px;
+  border-color: rgb(51, 51, 51);
+  }
+  .footer-link{
+    color: white;
+    }
+    .footer-link:active{
+      color: rgb(105, 105, 209);
+      }
+     
