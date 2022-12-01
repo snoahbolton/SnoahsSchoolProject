@@ -34,6 +34,44 @@
   align-items: center;
   }
 
+.creator-info{
+  justify-content: center;
+  text-align: center;
+}
+
+  .creator-image{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+  }
+
+  .creator-title{
+    color: rgb(200, 200, 200);
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .creator-text{
+    color: rgb(200, 200, 200);
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: auto;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .contact-link{
+    text-decoration: underline;
+    color: darkorange;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+
 .footer{
   font-family: arial;
   position: fixed;  
