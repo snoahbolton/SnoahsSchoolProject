@@ -34,6 +34,42 @@
   align-items: center;
   }
 
+.page-title{
+  color: rgb(51, 109, 51);
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table{
+  color: rgb(200, 200, 200);
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+  text-align: left;
+  padding: 30px;
+  border-spacing: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  justify-content: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.table-headers{
+  font-weight: bolder;
+  font-size: 23px;
+  text-decoration: underline;
+}
+
 .footer{
   font-family: arial;
   position: fixed;  
